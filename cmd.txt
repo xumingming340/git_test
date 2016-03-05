@@ -1,3 +1,4 @@
 git log --pretty=oneline
 git reset --hard HEAD^		# back to last version
 git reflog			# unback
+git diff HEAD -- readme.txt	# lookup diff between workspace with repository
