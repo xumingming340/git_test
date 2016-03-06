@@ -1,6 +1,6 @@
 git log --pretty=oneline
 git reset --hard HEAD^		# back to last version
 git reset HEAD readme.txt	# unstage
-git reflog			# unback
+git reflog			# all log message
 git diff HEAD -- readme.txt	# lookup diff between workspace with repository
 git checkout -- readme.txt	# back to status of last add or commit
